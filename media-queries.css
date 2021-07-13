@@ -1,0 +1,215 @@
+/*====================*/
+/*===Media Queries====*/
+/*====================*/
+
+.illustration{
+	min-width: 200px;
+	max-width: 500px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 475px){
+
+/*general stuff*/
+	nav{
+		border: 0px solid red;
+		width: 100%;
+		padding: 1em;
+	}
+
+	.link{
+		display: none;
+	}
+
+	.hdn-btn{
+		display: inline;
+	}
+
+	.section{
+		outline: 0px solid red;
+		width: 100%;
+	}
+
+/*info*/
+	.info p{
+		border: 0px solid red;
+		width: 100%;
+	}
+
+	.intro{
+		flex-direction: column;
+	}
+
+	.intro h1{
+		font-size: 2rem;
+	}
+
+	.illustration{
+		width: 90%;
+	}
+
+/*services*/
+	.services p{
+		border: 0px solid red;
+		width: 90%;
+	}
+
+	.cards-row{
+		border: 0px solid red;
+		width: 85%;
+	}
+
+/*lead-helthc-provid*/
+	.lead-helthc-provid{
+		flex-direction: column;
+	}
+
+	.info2{
+		border: 0px solid red;
+		width: 100%;
+		padding: 1em;
+		margin: 0;
+	}
+
+	.info2 p{
+		width: 100%;
+	}
+
+	.info2 h2{
+		font-size: 1.5rem;
+	}
+
+/*Download*/
+	.download{
+		border: 0px solid red;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.info3{
+		border: 0px solid cyan;
+		margin: 0;
+		width: 100%;
+		padding: 1em;
+	}
+
+	.info3 h3{
+		font-size: 1.5rem;
+	}
+
+/*Customers/Testimonials*/
+	.testimonial{
+		border: 0px solid red;
+		width: 98%;
+		padding: 0 1em;
+	}
+	.testimonial h2{
+		font-size: 1.2rem;
+	}
+
+	.testimonial-container{
+		border: 0px solid ;
+	}
+	.customer{
+		border: 0px solid;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.feedback{
+		margin: 0;
+		width: 100%;
+	}
+
+/*latest-articles*/
+	.latest-articles h2{
+		font-size: 1.2rem;
+	}
+
+	.articles-row{
+		border: 0px solid;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+	.article{
+		width: 90%;
+	}
+
+/*footer*/
+	.footerinfo1{
+		width: 100%;
+		border: 0px solid red;
+		padding: 0 1em;
+	}
+	.footerinfo1 p{
+		border: 0px solid red;
+		width: 100%;
+		border-bottom: 1px solid;
+	}
+
+	.footerinfo2,
+	.footerinfo3,
+	.footerinfo4{
+		border: 0px solid;
+		flex: 1 1 1%;
+		text-align: center;
+	}
+
+}
+
+
+/*====================*/
+
+@media only screen and (min-width: 475px) and (max-width: 766px){
+
+	nav{
+		padding: 2em 0;
+	}
+
+	.link{
+		display: none;
+	}
+	.hdn-btn{
+		display: inline;
+	}
+	
+	.intro,.lead-helthc-provid,.download{
+		flex-direction: column;
+	}
+
+	.section{
+		width: 100%;
+	}
+
+	.intro{
+		border: 0px solid black;
+		width: 80%;
+	}
+
+	.intro h1{
+		font-size: 2rem;
+	}
+
+	.articles-row{
+		flex-direction: column;
+	}
+
+}
+
+/*====================*/
+
+@media only screen and (min-width: 766px) and (max-width: 1024px){
+
+	nav{
+		border: 2px solid peru;
+		width: 100%;
+	}
+
+	.scetion{
+		border: 2px solid red;
+	}
+
+}
